@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(205, 169, 200);
+}
+
+.head{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+
+}
+.home{
+    display: flex;
+    gap: 50px;
+}
+
+.label{
+    border: 4px solid red;
+    margin: 20px;
+    margin: 20px;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+}
+
+.button{
+    display: flex;
+    gap:0px;
+} 
+.button button{
+    border-radius: 3rem;
+    padding: 10px;
+    margin: 20px;
+    width: 100px;
+}
+.All{
+    display: grid;
+    justify-content: center;
+    margin: 30px;
+
+}
+
+.All input{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 3rem;
+}
+
+
+.All button{
+    width: 497px;
+    padding: 10px;
+    border-radius: 3rem;
+}
